@@ -3,7 +3,42 @@ guid: c6ea11104bd4d584b92bc49ed162a677
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black keys
+    second: {fileID: 2100000, guid: 0b0eff8f0a2df0c479b109fe363e78f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piano Main
+    second: {fileID: 2100000, guid: 934d67bef0662484cbacd49ce1ddeea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piano Pedals
+    second: {fileID: 2100000, guid: b20aa0d76a2a6864fba4027a58c1b7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piano inside
+    second: {fileID: 2100000, guid: b20aa0d76a2a6864fba4027a58c1b7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stool Cover
+    second: {fileID: 2100000, guid: 627fa3547b7c8bf4899b0670cd3a86fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stool main
+    second: {fileID: 2100000, guid: 934d67bef0662484cbacd49ce1ddeea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White keys
+    second: {fileID: 2100000, guid: 4fca08db290dc3a4e9bb994d3d73a631, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +82,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
